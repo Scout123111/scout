@@ -5,10 +5,7 @@ with st.sidebar:
     st.write('Nghệ danh: Low G')
     st.write("""Nguyễn Hoàng Long,là 1 rapper nổi tiếng Việt Nam. Anh có giọng rap đặc trưng cũng như khả năng rap mượt vượt trội so với nhiều rapper trẻ thế hệ mới.
              Anh từng là nhà vô địch giải đấu Gloving online Lights On mùa 2 và giải Tutting 1vs1 Infinite Battle.""")
-st.write("Bài hát yêu thích ")
-st.write("An thần ")
-audio = open('An Thần (ft. Thắng)  Low G  Rap Nhà Làm.mp3', 'rb')
-st.audio(audio, format='audio/mp3')
+
 
 st.title("MV yêu thích ")
 st.write("Có em ")
@@ -20,7 +17,5 @@ st.write("Hop ON DA SHOW ")
 video = 'https://www.youtube.com/watch?v=vkqblLuU7I8'
 st.video(video, format='video/mp4')
 
-st.write("Bài hát ghét nhất ")
-st.write("Phóng Zìn Zìn")
-audio = open('PHÓNG ZÌN ZÌN  Low G x tlinh  OFFICIAL AUDIO (1).mp3', 'rb')
-st.audio(audio, format='audio/mp3')
+
+
