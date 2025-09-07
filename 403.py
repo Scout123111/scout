@@ -9,13 +9,14 @@ with st.sidebar:
 
 st.title("MV yêu thích ")
 st.write("Có em ")
-video = 'https://www.youtube.com/watch?v=DcCISK3sCYg'
+video = 'https://www.youtube.com/watch?v=QD7H5jTvPu0&list=RDQD7H5jTvPu0&start_radio=1'
 st.video(video, format='video/mp4')
 
 st.title("MV yêu thích thứ hai ")
 st.write("Hop ON DA SHOW ")
 video = 'https://www.youtube.com/watch?v=vkqblLuU7I8'
 st.video(video, format='video/mp4')
+
 
 
 
